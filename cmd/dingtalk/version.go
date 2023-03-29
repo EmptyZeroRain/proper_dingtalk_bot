@@ -3,10 +3,9 @@ package dingtalk
 import (
 	"log"
 
-	"github.com/CatchZeng/gutils/version"
+	v "github.com/CatchZeng/gutils/version"
 	"github.com/spf13/cobra"
 )
-
 const (
 	version   = "1.5.0"
 	buildTime = "2022/04/20"
