@@ -1,4 +1,4 @@
-module github.com/CatchZeng/dingtalk
+module github.com/trh812/dingtalk
 
 go 1.18
 
