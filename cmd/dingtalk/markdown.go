@@ -3,7 +3,7 @@ package dingtalk
 import (
 	"log"
 
-	"github.com/CatchZeng/dingtalk/pkg/dingtalk"
+	"github.com/trh812/dingtalk/pkg/dingtalk"
 	"github.com/spf13/cobra"
 )
 
