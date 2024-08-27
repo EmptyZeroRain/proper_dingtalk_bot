@@ -14,7 +14,6 @@ import (
 
 // https://oapi.dingtalk.com/robot/send?access_token=xxx
 // const dingTalkOAPI = "oapi.dingtalk.com"
-const dingTalkOAPI = "zd-openplatform.bigdatacq.com"
 
 var dingTalkURL url.URL = url.URL{
 	Scheme: "https",
