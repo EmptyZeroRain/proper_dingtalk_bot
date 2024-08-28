@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/trh812/dingtalk/cmd/dingtalk"
+	"github.com/EmptyZeroRain/proper_dingtalk_bot/cmd/dingtalk"
 )
 
 func main() {

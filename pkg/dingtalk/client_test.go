@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"bou.ke/monkey"
-	"github.com/CatchZeng/dingtalk/internal/security"
+	"github.com/EmptyZeroRain/proper_dingtalk_bot/internal/security"
 
-	mock_message "github.com/CatchZeng/dingtalk/test/mocks/message"
+	mock_message "github.com/EmptyZeroRain/proper_dingtalk_bot/test/mocks/message"
 	"github.com/golang/mock/gomock"
 )
 

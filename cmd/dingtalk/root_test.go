@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"bou.ke/monkey"
-	"github.com/CatchZeng/dingtalk/configs"
+	"github.com/EmptyZeroRain/proper_dingtalk_bot/configs"
 )
 
 func Test_newClient(t *testing.T) {

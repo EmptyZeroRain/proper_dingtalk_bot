@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/trh812/dingtalk/internal/security"
+	"github.com/EmptyZeroRain/proper_dingtalk_bot/internal/security"
 )
 
 // Client dingtalk client

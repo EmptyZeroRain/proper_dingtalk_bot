@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/trh812/dingtalk/configs"
-	"github.com/trh812/dingtalk/pkg/dingtalk"
+	"github.com/EmptyZeroRain/proper_dingtalk_bot/configs"
+	"github.com/EmptyZeroRain/proper_dingtalk_bot/pkg/dingtalk"
 	"github.com/spf13/viper"
 
 	"github.com/spf13/cobra"
