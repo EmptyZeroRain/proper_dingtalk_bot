@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"net/http"
 	"time"
 
@@ -61,9 +61,13 @@ func (d *Client) Send(message Message) (string, *Response, error) {
 	if err != nil {
 		return reqString, res, err
 	}
-	defer resp.Body.Close()
+	defer func(Body io.ReadCloser) {
+		err := Body.Close()
+		if err != nil {
+		}
+	}(resp.Body)
 
-	resultByte, err := ioutil.ReadAll(resp.Body)
+	resultByte, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return reqString, res, err
 	}

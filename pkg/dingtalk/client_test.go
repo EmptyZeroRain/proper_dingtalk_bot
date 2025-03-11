@@ -10,7 +10,7 @@ import (
 	"bou.ke/monkey"
 	"github.com/EmptyZeroRain/proper_dingtalk_bot/internal/security"
 
-	mock_message "github.com/EmptyZeroRain/proper_dingtalk_bot/test/mocks/message"
+	mockmessage "github.com/EmptyZeroRain/proper_dingtalk_bot/test/mocks/message"
 	"github.com/golang/mock/gomock"
 )
 
@@ -49,7 +49,7 @@ func TestClient_Send(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	defer ctrl.Finish()
 
-	message := mock_message.NewMockMessage(ctrl)
+	message := mockmessage.NewMockMessage(ctrl)
 
 	t.Run("message return error", func(t *testing.T) {
 		c := &Client{}
