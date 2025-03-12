@@ -16,7 +16,7 @@ import (
 // const dingTalkOAPI = "oapi.dingtalk.com"
 const dingTalkOAPI = "zd-openplatform.bigdatacq.com"
 
-var dingTalkURL url.URL = url.URL{
+var dingTalkURL = url.URL{
 	Scheme: "https",
 	Host:   dingTalkOAPI,
 	Path:   "robot/send",
